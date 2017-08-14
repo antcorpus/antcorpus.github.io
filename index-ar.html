@@ -9,13 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>&#128028; ANTCorpus  - Arabic News Texts Corpus</title>
+    <title>&#128028; مشروع نملة - Arabic News Texts Corpus</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/earlyaccess/notonaskharabic.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/earlyaccess/notosanskufiarabic.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,6 +31,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+	<style>
+	body{
+		font-family:Noto Naskh Arabic;
+		direction: rtl;
+	}
+	 #mainNav, h1, h2, h3, h4, h5, h6, header .intro-text .name{
+		font-family:Noto Sans Kufi Arabic;
+		/*font-family:Noto Naskh Arabic;*/
+	}
+	#mainNav{font-size:12pt;}
+	</style>
 </head>
 
 <body id="page-top" class="index">
@@ -41,14 +54,14 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">&#128028; ANT Corpus</a>
+                <a class="navbar-brand" href="#page-top">&#128028; مشروع نملة</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav navbar-left">
-                    <li class="page-scroll">
-						<a href="index-ar.html">عربي</a>
+			     <ul class="nav navbar-nav navbar-left">
+                    <li class="page-scroll small">
+						 <a href="index.html">إستبدل اللغة English</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -56,13 +69,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About the project <i class="fa fa-comments"></i></a>
+                        <a href="#download">تنزيل <i class="fa fa-download"></i></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#team">Team <i class="fa fa-users"></i></a>
+                        <a href="#team">فريق العمل <i class="fa fa-users"></i></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#download">Download <i class="fa fa-download"></i></a>
+					<li class="page-scroll">
+                        <a href="#about">حول المشروع <i class="fa fa-comments"></i></a>
                     </li>
                 </ul>
             </div>
@@ -78,9 +91,9 @@
                 <div class="col-lg-12">
                     <!--img class="img-responsive" src="img/profile.png" alt=""-->
                     <div class="intro-text">
-                        <span class="name">ANTCorpus project</span>
+                        <span class="name">مشروع نملة</span>
                         <hr class="star-light">
-                        <span class="skills">Arabic News Texts Corpus</span>
+                        <span class="skills">نصوص مكنزية للأخبار العربية</span>
                     </div>
                 </div>
             </div>
@@ -92,52 +105,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About the project</h2>
+                    <h2>حول المشروع</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>ANTCorpus stands for "Arabic News Texts Corpus". It is a research project that aims to collect texts from different sources of the web by incrementing the amount of data progressively.</p>
+                    <p>إقتباس "نملة" يذكرنا أيضا بطريقة عمل النمل كحشرة نشطة تجمع ما يفيد بطريقة دؤوبة بهدف إثراء الخلية و لصالح المجموعة.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>The acronym ANT can remind the ants' work:<br/>
-					<cite>"Every ant should contribute to build the nest progressively".</cite></p>
+                    <p>مشروع نملة إختصار ل"نصوص مكنزية للأخبار العربية". وهو مشروع بحثي يهدف إلى جمع النصوص الإخبارية باللغة العربية من مصادر مختلفة على شبكة الإنترنت عن طريق زيادة كمية البيانات تدريجيا.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#download" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Go to Download section
+                         إذهب إلى قسم التنزيلات <i class="fa fa-download"></i>
                     </a>                     
 					<a href="https://github.com/antcorpus"  target="_blank" class="btn btn-lg btn-outline">
-                        <i class="fa fa-github"></i> Visit GitHub project page
+                         زر صفحة المشروع على GitHub <i class="fa fa-github"></i>
                     </a> 
                 </div>
 			</div>
 			<br/><br/>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h3>How it works ?</h3>
+                    <h3>كيفية عمل المشروع</h3>
 					<hr>
                 </div>			
             </div>
 			<div class="row">
                 <div class="col-lg-2 col-lg-offset-2 text-center">
                     <h1 class="btn-social btn-outline"><i class="fa fa-rss"></i></h1>
-					<p>From RSS feeds of news websites</p>
+					<p>إنطلاقا من خلاصات RSS للمواقع الإخبارية</p>
                 </div>
 				<div class="col-lg-1 text-center">
 					<p class="right-workflow "><i class="fa fa-arrow-right"></i></p>
 				</div>
                 <div class="col-lg-2 text-center">
                     <h1 class="btn-social btn-outline"><i class="fa fa-filter"></i></h1>
-					<p>Filter and Extract categorized data</p>
+					<p>تصفية واستخراج البيانات المصنفة</p>
                 </div>
 				<div class="col-lg-1 text-center">
 					<p class="right-workflow"><i class="fa fa-arrow-right"></i></p>
 				</div>
                 <div class="col-lg-2 text-center">
                     <h1 class="btn-social btn-outline"><i class="fa fa-files-o"></i></h1>
-					<p>Generate corpus documents</p>
+					<p>إنشاء وثائق المكنز</p>
                 </div>
 			</div>
         </div>
@@ -148,39 +160,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>The team behind the scene</h2>
+                    <h2>فريق العمل</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-				<div class="col-sm-12"><h3>Technical staff</h3><hr/></div>
+				<div class="col-sm-12"><h3>الفريق التقني</h3><hr/></div>
 				<div class="col-sm-4 portfolio-item">
-					<p>Oussama Ben Khiroun</p>
-					<i class="fa fa-fw fa-envelope-o"></i> oussama [DOT] ben [DOT] khiroun [@] gmail [DOT] com
+					<p>أمينة الشويقي</p>
+					<i class="fa fa-fw fa-envelope-o"></i> aminachouigui [@] gmail [DOT] com
 					<p>
-						<a href="http://oussamabenkhiroun.com/" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
-						<a href="http://tn.linkedin.com/in/oussamabk" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-linkedin"></i></a>
+						<a href="#" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
 					</p>
                 </div>
 				<div class="col-sm-4 portfolio-item">
-					<p>Raja Ayed</p>
+					<p>رجاء عيّاد</p>
 					<i class="fa fa-fw fa-envelope-o"></i> ayed [DOT] raja [@] gmail [DOT] com
 					<p>
 						<a href="http://www.jarir.tn/rajaayed" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
 					</p>
                 </div>
 				<div class="col-sm-4 portfolio-item">
-					<p>Amina Chouigui</p>
-					<i class="fa fa-fw fa-envelope-o"></i> aminachouigui [@] gmail [DOT] com
+					<p>أسامة بن خيرون</p>
+					<i class="fa fa-fw fa-envelope-o"></i> oussama [DOT] ben [DOT] khiroun [@] gmail [DOT] com
 					<p>
-						<a href="#" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
+						<a href="http://oussamabenkhiroun.com/" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
+						<a href="http://tn.linkedin.com/in/oussamabk" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-linkedin"></i></a>
 					</p>
                 </div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12"><h3>Head staff</h3><hr/></div>
-				<div class="col-sm-4 portfolio-item">
-					<p>Dr. Bilel Elayeb</p>
+				<div class="col-sm-12"><h3>فريق الإشراف</h3><hr/></div>
+				<div class="col-sm-12 portfolio-item">
+					<p>د. بلال العايب</p>
 					<p>
 						<a href="http://www.jarir.tn/bilelelayeb" target="_blank" class="btn-social-warm btn-outline btn-outline-warm"><i class="fa fa-fw fa-globe"></i></a>
 					</p>
@@ -194,27 +206,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Download</h2>
+                    <h2>قسم التنزيلات</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
+			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
                     <a href="https://github.com/antcorpus/antcorpus.data/releases/tag/v1.0" class="btn btn-lg" target="_blank">
-                        Download Version 1.0 <i class="fa fa-download"></i>
-                    </a>	(Number of documents = <b>6.005</b> | Released version date = <b>12 August 2017</b>)
+                        تنزيل النسخة 1.0 <i class="fa fa-download"></i>
+                    </a>	(عدد المقالات الجملي = <b>6.005</b> | تاريخ إعلان الإصدار = <b>12 أوت/أغسطس 2017</b>)
 					<!--a href="#download" class="btn btn-lg disabled">
                         No available downloads yet... Coming soon, stay tunned <i class="fa fa-clock-o"></i>
                     </a-->
                 </div>
-				<div class="col-lg-8 col-lg-offset-2"><hr/>				
-					<h3>Citation Licence</h3>
-					<p>The files of ANT Corpus are subject to the following citation license:</p>
+				<div class="col-lg-8 col-lg-offset-2" dir="ltr"><hr/>				
+					<h3>Citation License / ترخيص الإستخدام</h3>
+					<p dir="rtl">تخضع ملفات "مشروع نملة" لترخيص الإستعمال التالي:</p>
 					<blockquote>By downloading ANT Corpus, <b>you agree to cite at least one of our papers describing ANT Corpus</b> (refer to the <a href="#publications">section below</a>) <b>and/or refer the project's main page</b> in any kind of material you produce where ANT Corpus was used to conduct search or experimentation, whether be it a research paper, dissertation, article, poster, presentation, or documentation.
 						<h5>&#9989; By using this data, you have agreed to the citation licence.</h5>
 					</blockquote>
+					<blockquote dir="rtl">
+					عن طريق تحميل و إستخدام ملفات "مشروع نملة"، فإنك توافق على الاستشهاد على الأقل بواحدة من مقالاتنا البحثية التي تصف المشروع (راجع القسم أدناه) أو وضع رابط للصفحة الرئيسية للمشروع في أي نوع من المواد التي تُنْتَج حيث تم استخدام "مشروع نملة" لإجراء البحث أو التجريب ، سواء كان ذلك ورقة بحثية، أطروحة، مقالة، ملصق، تقديم أو توثيق.					
+						<h5>&#9989;  بتطبيق هذه البيانات، قد وافقت على رخصة الإستخدام.</h5>
+					</blockquote>
 					
-					<h3 id="publications">Publications</h3>
+					<h3 id="publications">Publications / المنشورات العلمية</h3>
 					📄 A. Chouigui, O. Ben Khiroun and B. Elayeb. <b>ANT Corpus : An Arabic News Text Collection for Textual Classification</b>. In proceedings of the 14th ACS/IEEE International Conference on Computer Systems and Applications (<a href="http://www.aiccsa.net/AICCSA2017/" target="_blank">AICCSA 2017</a>), Hammamet, Tunisia, October 30 - November 3, 2017.
 				</div>
             </div>
@@ -227,15 +243,15 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>RIADI Laboratory<br/>
-						ENSI, University of Manouba, Tunisia<br/>
-						ENISo, University of Sousse, Tunisia</p>
+                        <h3>العنوان</h3>
+                        <p> مخبر RIADI ، 
+						المدرسة الوطنية لعلوم الإعلامية، جامعة منوبة، تونس<br/>
+						المدرسة الوطنية للمهندسين بسوسة، جامعة سوسة، تونس</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-						<p><a href="http://jarir.tn" class="" target="_blank">JARIR</a> team website</p>						
-						<p><a href="http://www.riadi.rnu.tn" class="" target="_blank">RIADI</a> lab. website</p>
+                        <h3>وصلات خارجية</h3>
+						<p> فريق البحث <a href="http://jarir.tn" class="" target="_blank">JARIR</a></p>						
+						<p> مخبر <a href="http://www.riadi.rnu.tn" class="" target="_blank">RIADI</a></p>
                     </div>
                     <!--div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -258,8 +274,8 @@
                         </ul>
                     </div-->
                     <div class="footer-col col-md-4">
-                        <h3>About ANTCorpus project</h3>
-                        <p>A research project that aims to collect Arabic texts from different sources of the web by incrementing the amount of data progressively.</p>
+                        <h3>حول مشروع نملة</h3>
+                        <p>هو مشروع بحثي يهدف إلى جمع النصوص الإخبارية باللغة العربية من مصادر مختلفة على شبكة الإنترنت عن طريق زيادة كمية البيانات تدريجيا.</p>
                     </div>
                 </div>
             </div>
@@ -268,7 +284,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; <a href="https://antcorpus.github.io">ANTCorpus</a> 2017 - Theme by <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                        Copyright &copy; <a href="https://antcorpus.github.io">ANTCor</a> 2017 - Theme by <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
                     </div>
                 </div>
             </div>
