@@ -373,6 +373,18 @@ fieldset[disabled] .btn-primary.active {
   color: #2C3E50;
   background-color: white;
 }
+.label-orange {
+    background-color: #f36e00;
+}
+.label-green {
+    background-color: #28a745;
+}
+.label-red-dark {
+    background-color: #6e1b23;
+}
+.label-blue-fade {
+    background-color: #607d8b;
+}
 .btn-success {
   color: white;
   background-color: #a94442;
